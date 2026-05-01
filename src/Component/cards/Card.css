@@ -37,6 +37,11 @@
     width: 25%;
 }
 
+.link-design{
+    text-decoration: none;
+    color: black;
+}
+
 .belowCard{
     margin: 20px 185px;
     font-size: 20px;
@@ -50,3 +55,4 @@
 .belowCard u:hover{
     color: #379cd6;
 }
+

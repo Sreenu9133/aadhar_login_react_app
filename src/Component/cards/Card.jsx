@@ -1,5 +1,6 @@
 import cards from "./cardData"
 import "./Card.css"
+import { Link } from "react-router-dom"
 
 function Card() {
     return (
@@ -10,9 +11,11 @@ function Card() {
             <div className="card-row">
                 {cards.map((card) => (
                     <div className="card-design" key={card.id}>
-                        <img src={card.image} alt="" />
-                        <h3>{card.title}</h3>
-                        <p>{card.description}</p>
+                        <Link to={card.path} className="link-design">
+                            <img src={card.image} alt="" />
+                            <h3>{card.title}</h3>
+                            <p>{card.description}</p>
+                        </Link>
                     </div>
                 ))}
             </div>
