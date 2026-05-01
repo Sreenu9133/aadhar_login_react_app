@@ -1,0 +1,49 @@
+header{
+    color: black;
+}
+
+.first-nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: #2072A0;
+    padding: 10px 0;
+}
+
+.first-nav img{
+    width: 4%;
+}
+
+.second-nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: linear-gradient(119.54deg, #000046, #1cb5e0);
+    padding: 10px 0;
+}
+
+.second-nav span{
+    width: 85%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    gap: 5px;
+}
+
+.second-nav span p{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.second-nav span img{
+    width: 3%;
+}
+
+.firsSpan{
+    padding-right: 40px;
+}
+
+.secondSpan{
+    padding-left: 65px;
+}

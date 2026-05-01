@@ -1,0 +1,116 @@
+
+.hero-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(../../assets/blue-banner-bg.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-top: 2px;
+    color: white;
+}
+
+.hero-section1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.image-part {
+    width: 30%;
+}
+
+.image-part img {
+    width: 90%;
+}
+
+.text-part {
+    width: 20%;
+}
+
+.text-part1 h2 {
+    width: 60%;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.text-part2 h2 {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.sub-text-part {
+    display: flex;
+    align-items: center;
+}
+
+.qr-code {
+    width: 45%;
+}
+
+.download-links {
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+}
+
+.qr-code img {
+    width: 70%;
+}
+
+.download-links img {
+    width: 65%;
+}
+
+.text-part3 h3 {
+    margin-top: 20px;
+    font-size: 22px;
+}
+
+.card-part {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 17%;
+    box-sizing: border-box;
+    background-color: white;
+    padding: 20px 40px;
+    height: 40vh;
+    border-radius: 10px;
+
+}
+
+.card-part h3 {
+    font-size: 23px;
+    color: #22458A;
+    margin-bottom: 20px;
+}
+
+.card-part button {
+    width: 100%;
+    padding: 9px;
+    background: linear-gradient(119.54deg, #000046, #1cb5e0);
+    border: none;
+    color: white;
+    font-size: 19px;
+    font-weight: 400;
+}
+
+.card-part p {
+    color: black;
+    font-size: 12px;
+    margin-top: 7px;
+}
+
+.card-part img {
+    width: 60%;
+    margin-bottom: 30px;
+}
+
+.hero-section2 {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}

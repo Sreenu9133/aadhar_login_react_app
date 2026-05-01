@@ -1,0 +1,52 @@
+.cards{
+    display: flex;
+    flex-direction: column;
+}
+
+.cards-heading{
+    text-align: center;
+    font-size: 22px;
+    font-weight: 600;
+    margin: 20px 0;
+}
+
+.card-row{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.card-design{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 20px 40px;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    height: 24vh;
+}
+
+.card-design p{
+    margin-top: 5px;
+}
+
+.card-design img{
+    width: 25%;
+}
+
+.belowCard{
+    margin: 20px 185px;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.belowCard u {
+    color: #2072A0;
+}
+
+.belowCard u:hover{
+    color: #379cd6;
+}
