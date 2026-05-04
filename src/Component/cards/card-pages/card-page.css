@@ -1,0 +1,154 @@
+.download-page, .verify-page, .report-page{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+.download-dashboard, .verify-dashboard, .report-dashboard{
+    display: flex;
+    flex-direction: column;
+    border-top: 5px solid #2072A0;;
+    box-shadow: 0 0 10px rgba(1, 0, 10, 1.5);
+    width: 40%;
+    gap: 40px;
+    padding: 30px;
+}
+
+.selctOption{
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 1.9;
+    display: block;
+}
+
+.radio-btns{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.aadhaarNumber{
+    border: none;
+    border-bottom: 1px solid black;
+    width: 100%;
+}
+
+
+.captcha-wrap, .retrieve-captcha, .verify-captcha, .report-death-captcha{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.captcha-wrap b, .retrieve-captcha b,  .verify-captcha b, .death-captcha-field {
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 5px 10px;
+}
+
+.captcha-wrap i, .retrieve-captcha i, .verify-captcha i, .death-captcha-field i{
+    font-size: 24px;
+}
+
+.captcha-wrap input, .retrieve-captcha input, .verify-captcha input, .report-death-captcha input{
+    border: none;
+    border-bottom: 1px solid black;
+    padding: 5px;
+    width: 50%;
+}
+
+.sendOtpBtn{
+    padding: 15px 30px;
+    color: white;
+    background-color: grey;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    width: 35%;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+
+/* Retrieve aadhaar css */
+
+.retrieve-page{
+     display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.retrieve-dashboard{
+    display: flex;
+    flex-direction: column;
+    border-top: 5px solid #2072A0;;
+    box-shadow: 0 0 10px rgba(1, 0, 10, 1.5);
+    width: 40%;
+    gap: 40px;
+    padding: 30px;
+}
+
+.retrieveRadio-btns, .verify-radio{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.retrieve-input, .verify-form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.retrieve-input input, .verify-form input, .report-death-form input{
+    border: none;
+    border-bottom: 1px solid black;
+    padding: 5px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.innerRetrieve-input{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    gap: 20px;
+}
+
+.innerRetrieve-input input{
+    width: 40%;
+}
+
+/* Veriffy email/mobile css */
+
+.verifyForm, .death-login-form{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+/* report death page css */
+
+.death-captcha-field{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.otp-login-btn{
+    background-color: #b5b1b1;
+    border: none;
+    font-size: 25px;
+    color: white;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.report-dashboard{
+    width: 25%;
+}

@@ -5,6 +5,9 @@ import LoginDashboard from './Component/login/LoginDashboard'
 import Card from './Component/cards/Card'
 import { BrowserRouter } from 'react-router-dom'
 import DownloadAadhar from './Component/cards/card-pages/DownloadAadhar'
+import RetrieveAadhaar from './Component/cards/card-pages/RetrieveAadhaar'
+import VerifyEmailMobile from './Component/cards/card-pages/VerifyEmailNumber'
+import ReportDeathPage from './Component/cards/card-pages/ReportDeathPage'
 
 function App() {
 
@@ -21,10 +24,10 @@ function App() {
               <Card />
             </>
           } />
-          <Route path="/download-aadhar" element={<DownloadAadhar />} />
-          <Route path="/retrieve-aadhaar" element={<DownloadAadhar />} />
-          <Route path="/verify-email" element={<DownloadAadhar />} />
-          <Route path="/death-report" element={<DownloadAadhar />} />
+          <Route path="/download-aadhaar" element={<DownloadAadhar />} />
+          <Route path="/retrieve-aadhaar" element={<RetrieveAadhaar />} />
+          <Route path="/verify-email" element={<VerifyEmailMobile />} />
+          <Route path="/death-report" element={<ReportDeathPage />} />
           <Route path="/document-update" element={<DownloadAadhar />} />
           <Route path="/vid-generator" element={<DownloadAadhar />} />
           <Route path="/lock-unlock" element={<DownloadAadhar />} />
